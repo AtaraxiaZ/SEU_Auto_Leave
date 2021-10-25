@@ -1,6 +1,9 @@
 # SEU_Auto_Leave
 东南大学自动请假 研究生和本科生
 
+![Stars](https://img.shields.io/github/stars/quzard/SEU_Auto_Leave.svg)
+![Forks](https://img.shields.io/github/forks/quzard/SEU_Auto_Leave.svg)
+
 ## 已实现
 
 - [x] 研究生销假
