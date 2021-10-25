@@ -261,7 +261,6 @@ class Leave(object):
         self.header['Content-Type'] = 'application/x-www-form-urlencoded;charset=utf-8'
         FormData = {'data': post_info}
         data = parse.urlencode(FormData)
-        return ""
         save = self.sess.post(save_url, data=data, headers=self.header)
 
         if "成功" in save.text:
