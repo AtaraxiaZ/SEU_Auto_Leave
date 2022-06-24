@@ -31,7 +31,7 @@ class Leave(object):
         get_login = self.sess.get(login_url)
 
         get_login.encoding = 'utf-8'
-        print(get_login.text)
+        #print(get_login.text)
         lt = re.search('name="lt" value="(.*?)"', get_login.text).group(1)
         salt = re.search('id="pwdDefaultEncryptSalt" value="(.*?)"', get_login.text).group(1)
         execution = re.search('name="execution" value="(.*?)"', get_login.text).group(1)
