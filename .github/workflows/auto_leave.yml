@@ -25,7 +25,7 @@ jobs:
         PASSWORD: ${{ secrets.PASSWORD }}
       run: |
         sudo apt-get install python3-setuptools -y
-        git clone https://github.com/quzard/SEU_Auto_Leave.git
+        git clone https://github.com/JiahongWu97/SEU_Auto_Leave.git
         cp -r SEU_Auto_Leave/* .
         pip3 install -r requirements.txt
         python3 main.py
